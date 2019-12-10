@@ -13,4 +13,4 @@ cp ghc-events-analyze ghc-events-analyze-orig
 rm ghc-events-analyze
 sed -e 's,/root/.cabal/store/ghc-8.4.3/SVGFonts-1.7.0.1-1227c5220f52d1568f166ac8ade7dcf302e864a57f99776fb9f58cad1ed6eef6,.////////////////////////////////////////////////////////////////////////////////////////////////////////fonts,g' ./ghc-events-analyze-orig >ghc-events-analyze
 chmod +x ghc-events-analyze
-tar Jcvf ghc-events-anayze.tar.xz ghc-events-analyze fonts
+tar Jcvf ghc-events-analyze.tar.xz ghc-events-analyze fonts
